@@ -1,4 +1,4 @@
-import {Person, Mail} from "@material-ui/icons"
+import {Star} from "@material-ui/icons"
 
 const TimelineItem = ({ data }) => (
     <div className="timeline-item">
@@ -8,17 +8,9 @@ const TimelineItem = ({ data }) => (
             </span>
             <time>{data.date}</time>
             <p>{data.text}</p>
-            {data.link && (
-                <a
-                    href={data.link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {data.link.text}
-                </a>
-            )}
             <div className="itemContainer">
-            <Mail classname="icon" />
+            {/* <img src="assets/goal.png"/> */}
+            <Star classname="icon" />
             </div>
             {/* <span className="circle"/> */}
         </div>

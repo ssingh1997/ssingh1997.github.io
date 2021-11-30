@@ -211,7 +211,7 @@ body {
     // position: relative;
   }
   .timeline-container::after {
-    background-color: #e17b77;
+    background-color: #b8336a;
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -316,14 +316,22 @@ body {
   .timeline-item-content .itemContainer {
     position: absolute;
     top: calc(50% - 10px);
-    right: -40px;
+    right: -38px;
     width: 20px;
     height: 20px;
     z-index: 100;
     overflow-x: visible;
+    color: #f4a261;
+    text-shadow: 2px 1px 1px #e63946;
+
+    // img {
+    //     // position: relative;
+    //     width: 120%;
+    //     height: 120%;
+    // }
   }
   .timeline-item:nth-child(odd) .timeline-item-content .itemContainer {
     right: auto;
-    left: -40px;
+    left: -42px;
     overflow-x: visible;
   }
