@@ -3,7 +3,7 @@ import './app.scss';
 import Navbar from "./components/navbar/Navbar"
 import Intro from "./components/intro/Intro"
 import Menu from "./components/menu/Menu"
-import Timeline from './components/Timeline';
+import Timeline from './components/timeline/Timeline.jsx';
 import Contact from "./components/contact/Contact"
 import { useState } from "react"
 function App() {
@@ -12,7 +12,6 @@ function App() {
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Timeline/>
       <div className="sections">
         <Intro/>
         <Timeline/>
