@@ -10,7 +10,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["Engineer", "Student", "Enthusiast"]
+            strings: ["Engineer", "Developer", "Student", "Enthusiast"]
         })
     }, [])
     return (
@@ -26,7 +26,7 @@ export default function Intro() {
                     <h1>Satyen Singh</h1>
                     <h3>Machine Learning <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#about">
                     <img src="assets/down.png" alt=""/>
                 </a>
             </div>
