@@ -2,6 +2,7 @@ import React from 'react'
 import './app.scss';
 import Navbar from "./components/navbar/Navbar"
 import Intro from "./components/intro/Intro"
+import About from "./components/about/About"
 import Menu from "./components/menu/Menu"
 import Timeline from './components/timeline/Timeline.jsx';
 import Contact from "./components/contact/Contact"
@@ -14,6 +15,7 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
+        <About/>
         <Timeline/>
         <Contact/>
       </div>
