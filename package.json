@@ -21,7 +21,7 @@
     "sass": "^1.43.5",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "http://ssingh1997.github.io/personal-website",
+  "homepage": "https://ssingh1997.github.io/personal-website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
