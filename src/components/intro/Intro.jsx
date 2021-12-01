@@ -1,8 +1,14 @@
 import "./intro.scss"
 import { init } from 'ityped'
 import { useEffect, useRef } from "react"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Intro() {
+
+    useEffect(() => {
+        Aos.init({duration: 2000});
+    })
 
     const textRef = useRef(); 
     useEffect(() => {
@@ -14,7 +20,7 @@ export default function Intro() {
         })
     }, [])
     return (
-        <div className="intro" id="intro">
+        <div data-aos="fade-up" className="intro" id="intro">
             <div className="left">
                 <div className="imgContainer">
                     <img src="assets/satyen.png" alt=""/>

@@ -1,8 +1,14 @@
 import './about.scss'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 
 export default function About() {
+    useEffect(() => {
+        Aos.init({duration: 2000});
+    })
     return (
-        <div className="about" id="about">
+        <div data-aos="fade-up" className="about" id="about">
             <div className="about-left">
                 <div className="about-card bg"></div>
                 <div className="about-card">

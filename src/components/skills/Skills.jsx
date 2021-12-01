@@ -1,7 +1,13 @@
 import { useState } from "react";
 import "./skills.scss";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react"
 
 export default function Skills() {
+    useEffect(() => {
+        Aos.init({duration: 2000});
+    })
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
@@ -41,7 +47,7 @@ export default function Skills() {
   };
   
   return (
-    <div className="skills" id="skills">
+    <div data-aos="fade-up" className="skills" id="skills">
         <div className="title">
             <h1>Areas of Expertise</h1>
         </div>
