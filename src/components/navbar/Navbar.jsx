@@ -6,7 +6,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <div className={"navbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">genius.</a>
+                    <a href="#intro" className="logo">Satyen.</a>
                     <div className="itemContainer">
                         <Person classname="icon" />
                         <span>+1 973 830 7654</span>
