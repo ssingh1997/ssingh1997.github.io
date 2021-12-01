@@ -8,7 +8,7 @@ const TimelineData = [
         },
     },
     {
-        text: 'First experience of Software Engineering as an Intern at an exciting start-up in Menlo Park, California',
+        text: 'Software Engineering Intern at Astound.ai in Menlo Park, California',
         date: 'June 2018 - August 2018',
         category: {
             tag: 'professional',
@@ -40,7 +40,7 @@ const TimelineData = [
         },
     },
     {
-        text: 'Became a Junior Machine Learning Engineer at Johnson & Johnson',
+        text: 'Junior Machine Learning Engineer at Johnson & Johnson',
         date: 'June 2021 - December 2021',
         category: {
             tag: 'professsional',
