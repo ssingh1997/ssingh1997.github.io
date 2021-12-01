@@ -10,7 +10,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_hca4dlu', 'template_i59km9u', form.current, 'user_A1JCU3SqplxkUpIH9rkmm')
+    emailjs.sendForm(process.env.React_App_SERVICE_ID, process.env.React_App_TEMPLATE_ID, form.current, process.env.React_App_USER_ID)
       .then((result) => {
           console.log(result.text);
           setMessage(true)
